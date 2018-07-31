@@ -1,0 +1,30 @@
+
+	html {
+		background-color: maroon;
+	}
+	.Photo {border-width: 2px;
+	border-style: solid;
+	display: inline-block;
+	}
+	.image {
+		object-fit:cover;
+		width: 300px;
+		height: 300px;
+	}
+
+	.PhotoAlbum {
+		text-align: center;
+	}
+
+	@media only screen and (max-width: 600px) {
+		
+		.Photo {
+			display: block;
+			border: solid 2px maroon;
+			width:80%;
+			margin: 10px auto;}
+
+			.PhotoAlbum {
+				margin-top: 50px;}
+h1 {font-size: 2em;}
+}
